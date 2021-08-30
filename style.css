@@ -185,3 +185,19 @@ nav ul li a{
     text-align: initial;
     font-weight: 100;
 }
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width: 100%;
+        
+    }
+}
+
